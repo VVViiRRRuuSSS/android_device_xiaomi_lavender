@@ -153,6 +153,14 @@ PRODUCT_PACKAGES += \
 # Device-specific settings
 PRODUCT_PACKAGES += \
 
+# Gcam inbuild
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Display
 PRODUCT_PACKAGES += \
     gralloc.sdm660 \
